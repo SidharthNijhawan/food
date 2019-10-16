@@ -1,0 +1,285 @@
+body{
+    background-color:white;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+UL{
+    display: flex;
+    justify-content:flex-end;
+    list-style: none;
+    
+}
+h1{
+    color: whitesmoke;
+    font-size: 2 rem;
+}
+h3{
+    margin-top:2rem;
+}
+.showcase{
+    position: relative;
+    /* color:whitesmoke; */
+    top:10rem;
+    left: 10rem;
+
+}
+a{
+    text-decoration: none;
+    font-size: 1.0rem;
+    color:white;
+    
+}
+.p3{
+    border-radius: 50%;
+    height: 4rem;
+    width:4rem;
+    text-align: center;
+    /* border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    text-align: center; */
+    margin-top: -2rem;
+    margin-left: 6rem;
+}
+
+.btns{
+    margin-top: 1rem;
+    position: relative;
+}
+.container{
+    text-align: left;
+    margin-left: 2.2rem;
+    margin-top: 1rem;
+
+}
+h2{
+    text-align: center;
+    margin-left: 4rem;
+    margin-top: 4rem;
+    font-size: 2rem; 
+    
+    padding: 4rem;
+    font-size: 2.5rem;
+    color: #020c0f;
+                         
+
+}
+.c2{
+    display: flex;
+    margin-left: 2rem;
+    margin-top:2rem;
+    color:white;
+    text-align: left;
+}
+.c3{
+    text-align: center;
+    margin-top: 2rem;
+    color: wheat;
+}
+.coustmer{
+    border-radius: 200rem;
+}
+.c1:before{
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+}
+.mainbut{
+    position:relative;
+    left: 20rem;
+    margin-top: 4rem;
+    
+    
+}
+.img{
+    display: inline-block;
+    width: 14rem;
+    height: 27rem;
+    margin-top: 4rem;
+}
+.but{
+    display: inline;
+}
+p{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    text-align: center;
+
+}
+/* footer{
+    font-size: 2rem;
+    font-weight: 80;
+    font-style: oblique;
+    text-align: center;
+    color:goldenrod;
+    background-color:rgb(250, 229, 190);
+} */
+.p1{
+    text-align: left;
+    margin-left: 0.1rem;
+}
+.main{
+    position: relative;
+    left:   25rem;
+    background-color: rgb(204, 238, 238);
+    padding: 4rem;
+    border-radius: 4rem;
+    top: -10rem;
+}
+.input{
+    left: 10rem;
+}
+.form{
+    margin-top: 2rem;
+}
+.button{
+    margin-top: 2rem;
+}
+.igm1{
+    top: -12rem;
+    width: 22rem;
+    display: flex;
+    height: 5.5rem;
+    position: relative;
+    left: 50rem;
+    
+    /* /* right: 5rem; */
+}
+
+.img{
+    
+          width: 20rem;
+    display: block;
+    height: 39rem;
+    position: relative;
+    left: 12rem; 
+}
+h2::after{
+    display: block;
+    content:"";
+    height: 0.2rem;
+    width: 6rem;
+    margin-top: 2%;
+    margin-left: 46%;
+    background-color: green;
+}
+.icons{
+    color: green;
+    font-size: 3rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+.data{
+    display: flex;
+    margin-left: 3rem;
+    margin-top: 6rem;
+}
+.contain{
+    margin-left:4rem;
+    text-align:left;
+}
+.list{
+    display:block;
+}
+article{
+    margin-top: 2rem;
+    display:flex;
+}
+.mainbut{
+    display: flex;
+}
+.li{
+    display: flex;
+    position: relative;
+}
+.img2{
+    height: 10rem;
+}
+.but{
+    border-radius: 50%;
+    border-style: solid;
+    padding: 1rem;
+    text-align: center;
+    border-color: green;
+}
+.line{
+    margin-top:5rem;
+}
+.btn{
+    color: white;
+    background-color: green;
+    font-size: 1.0rem;
+    margin-right: 1.0rem;
+    display: inline-block;
+    padding:0.7rem 2rem;
+    border-radius: 2rem;
+}
+.btn-full{
+    border-width: 0.2rem;
+    border-style: solid;
+    border-color: green;
+    transition:transform 0.3s;
+}
+.btn-empty{
+    color: red;
+    background-color: transparent;
+    border-width: 0.2rem;
+    border-style:solid;
+    border-color:green;
+    transition:transform 0.3s;
+}
+.btn-full:hover{
+    transform: scale(1.2);
+}
+.btn-empty:hover{
+    transform: scale(1.2);
+    background-color:green;
+    color:white;
+    
+
+}
+/* img{
+    /* width: 20rem;
+    display: block;
+    height: 39rem;
+    position: relative;
+    left: 12rem; */
+    /* right: 5rem */
+/* }  */
+li{
+    font-size: 1.4rem;
+    margin-right:1.5rem ;
+    padding-bottom: 0.8rem;
+    border-bottom-width: 0.2rem;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+}
+li:hover{
+    border-bottom-width: 0.2rem;
+    border-bottom-style: solid;
+    border-bottom-color: brown;
+}
+section{
+    background-image: linear-gradient(to bottom , rgba(92, 170, 158, 0.5) , rgba(17, 16, 16, 0.47)),url(../css/js/img/pexels-photo-459469.jpeg);
+    height: 100vh;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+header{
+    background-image: linear-gradient(to bottom , rgba(66, 105, 99, 0.5) , rgba(17, 16, 16, 0.47)),url(../css/js/img/cook-food-kitchen-eat-54455.jpeg);
+    height: 100vh;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+main{
+    position: relative;
+    background-image: linear-gradient(to bottom , rgba(66, 105, 99, 0.5) , rgba(17, 16, 16, 0.47)),url(../css/js/img/Screen-Shot-2014-10-30-at-6.06.21-PM.jpeg);
+    height: 100vh;
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
